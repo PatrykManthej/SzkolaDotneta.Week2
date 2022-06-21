@@ -11,8 +11,8 @@ namespace Lesson4.VariableTypes
             string lastName1;
             int age1;
             char gender1;
-            int pesel1;
-            int employeeNumber1;
+            string pesel1;
+            string employeeNumber1;
 
             //Ex2
             char vara = 'a';
@@ -40,7 +40,7 @@ namespace Lesson4.VariableTypes
             Console.WriteLine("Podaj Nazwisko");
             string lastName = Console.ReadLine();
             Console.WriteLine("Podaj Numer telefonu");
-            int phoneNumber = Int32.Parse(Console.ReadLine());
+            string phoneNumber = Console.ReadLine();
             Console.WriteLine("Podaj mail");
             string mail = Console.ReadLine();
             Console.WriteLine("Podaj wzrost");
